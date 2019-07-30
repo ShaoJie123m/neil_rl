@@ -1,0 +1,55 @@
+.neil_01 img{
+    margin: 50px;
+     float: left;
+     width: 450px;
+     height: 600px;
+}
+.index_01{
+    width: 480px;
+    height: 700px;
+    float: right;
+    padding-top: 20px;
+    margin-right: 300px;
+}
+.index_01{
+    display: block;
+}
+#h_01{
+    width: 480px;
+    height: 57px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+#h_02{
+    font-size: 20px;
+    margin-top: 0px; 
+}
+#s_01{
+    width: 96px;
+    height: 33px;
+    font-size: 20px;
+    float: right;
+    
+}
+#i_01{
+    width: 480px;
+    height: 35px;
+   margin: 10px;
+}
+#s_02{
+    width: 170px;
+    height: 40px;
+    margin: 10px;
+}
+#s_03{
+    width: 260px;
+    height: 35px;
+    float: right;
+    margin: 10px;
+}
+#i_02{
+    width: 480px;
+    height: 35px;
+   margin: 10px;
+    background-color: blue
+}

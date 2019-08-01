@@ -3,6 +3,10 @@
     padding: 0px;
 }
 body{
+    filter:alpha(opacity=50);  
+    -moz-opacity:0.5;  
+    -khtml-opacity: 0.5;  
+    opacity: 0.5;
     margin: 0 auto;
     width:100%;
     background-image: url(350.jpg) ;
@@ -12,14 +16,17 @@ body{
     margin-top: 200px;
 }
 .index_01{
-    background-color:#363e53;
+   
+    background-color:gray;
     /* overflow: auto; */
     width:40%;
     height: 500px;
     float: right;
     margin-bottom: 240px;
-
-  
+}
+.index{
+    margin-bottom: 30px;
+    float: right;
 }
 #p_01{
     font-size: 40px;

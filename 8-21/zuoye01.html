@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var a = prompt("请输入一个数");
+			if(!isNaN(a)){
+			if(a%5==0 && a%6==0){
+				alert("这个数字同时能被5和6整除");
+			}else if(a%5==0 || a%6==1){
+				alert("这个数字能被5整除，但是不能被6整除");
+			}else if(a%5==1 || a%6==0){
+				alert("这个数字能被6整除，但是不能被5整除");
+			}else{
+				alert("这个数字既不能被6整除，也不能被5整除")
+			}
+			}
+		</script>
+	</body>
+</html>
